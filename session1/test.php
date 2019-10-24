@@ -22,7 +22,7 @@
 	echo "<br>";
 	if ($i <= 12) {
 		echo "$i là tháng trong nam";
-		if ($i == 1 || $i == 3 || $i == 5 || $i == 7 || $i == 8 || $i == 12) {
+		if ($i == 1 || $i == 3 || $i == 5 || $i == 7 || $i == 8 || $i == 10 || $i == 12) {
 			echo " va tháng $i co 31 ngày";
 		} else if ($i == 2) {
 			echo "<br>";
